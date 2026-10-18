@@ -1,4 +1,6 @@
-﻿# Electrically written quasi-phase matching of intersubband second-harmonic generation: bias-reversed asymmetric and mirror-symmetric quantum wells
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23444558.svg)](https://doi.org/10.5281/zenodo.23444558)
+
+# Electrically written quasi-phase matching of intersubband second-harmonic generation: bias-reversed asymmetric and mirror-symmetric quantum wells
 
 **Author:** Gracen Ownby (University of Oklahoma)  
 **Date:** October 2026  
