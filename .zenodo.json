@@ -1,4 +1,4 @@
-﻿{
+{
     "description":  "Self-contained repository containing the full reviewed manuscript (N1_paper.pdf), LaTeX source, qwkit v0.7.0 simulation engine, automated mathematical verification test suite (69 tests), and reproduction scripts/JSON datasets for: Electrically written quasi-phase matching of intersubband second-harmonic generation: bias-reversed asymmetric and mirror-symmetric quantum wells",
     "upload_type":  "software",
     "creators":  [
