@@ -1,0 +1,14 @@
+{
+ "ADQW, ideal on/off Stark QPM (1/pi)": {
+  "rel": 1.0,
+  "Lopt_um": 8.88960444802224
+ },
+ "ADQW, perfect phase matching (upper bound)": {
+  "rel": 9.869604401089353,
+  "Lopt_um": 8.88960444802224
+ },
+ "Triple well, sign-reversal QPM (2/pi)": {
+  "rel": 3.9249519474710812,
+  "Lopt_um": 14.659344796723984
+ }
+}

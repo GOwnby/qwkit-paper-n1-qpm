@@ -1,0 +1,4 @@
+ns 1e+11 P 1.26: ADQW best 0.329% (eta_e applied 0.281%) at (-80,+120) dhw +0, Lcoh 24.3/22.7 um | TW best 0.196% at (+60,-60) dhw -10 | ADQW/TW 1.43
+ns 1e+11 P 10.0: ADQW best 1.964% (eta_e applied 1.689%) at (-80,+120) dhw +0, Lcoh 24.3/22.7 um | TW best 0.850% at (+70,-70) dhw -10 | ADQW/TW 1.99
+ns 5e+11 P 1.26: ADQW best 0.414% (eta_e applied 0.353%) at (-100,+120) dhw +0, Lcoh 28.0/20.1 um | TW best 0.260% at (+40,-40) dhw -20 | ADQW/TW 1.36
+ns 5e+11 P 10.0: ADQW best 2.489% (eta_e applied 2.143%) at (+120,-120) dhw +0, Lcoh 20.1/27.7 um | TW best 1.260% at (+80,-80) dhw -10 | ADQW/TW 1.70

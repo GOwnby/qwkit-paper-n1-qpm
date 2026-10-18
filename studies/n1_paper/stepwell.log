@@ -1,0 +1,7 @@
+coarse top 5: [(30, 60, 0.5, 150, np.float64(55.6)), (40, 50, 0.35, 150, np.float64(45.5)), (30, 50, 0.35, 150, np.float64(45.3)), (20, 50, 0.5, 150, np.float64(36.9)), (50, 50, 0.35, 150, np.float64(30.1))]
+step well core 30 A, steps 50 A, x=0.35: |chi| 53.1 nm/V at 180 kV/cm = 48% of ADQW
+step well core 40 A, steps 60 A, x=0.5: |chi| 51.7 nm/V at 165 kV/cm = 47% of ADQW
+step well core 40 A, steps 50 A, x=0.35: |chi| 47.1 nm/V at 180 kV/cm = 42% of ADQW
+step well core 20 A, steps 50 A, x=0.5: |chi| 46.0 nm/V at 165 kV/cm = 41% of ADQW
+step well core 30 A, steps 60 A, x=0.5: |chi| 38.6 nm/V at 145 kV/cm = 35% of ADQW
+step well core 50 A, steps 50 A, x=0.35: |chi| 23.1 nm/V at 150 kV/cm = 21% of ADQW

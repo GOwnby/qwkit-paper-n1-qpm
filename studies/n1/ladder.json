@@ -1,0 +1,44 @@
+[
+ {
+  "model": "No Hartree, no depolarisation",
+  "tw": 61159.60612867502,
+  "F": 50.0,
+  "adqw": 105735.73868672355,
+  "ratio": 0.5784194340371538
+ },
+ {
+  "model": "No Hartree, with depolarisation",
+  "tw": 59320.75759575027,
+  "F": 45.0,
+  "adqw": 93798.15740047157,
+  "ratio": 0.6324298817777421
+ },
+ {
+  "model": "Hartree, no depolarisation",
+  "tw": 60675.0629261906,
+  "F": 55.0,
+  "adqw": 103229.3030057454,
+  "ratio": 0.5877697626497936
+ },
+ {
+  "model": "Hartree + depolarisation (full)",
+  "tw": 60795.765659017205,
+  "F": 55.0,
+  "adqw": 110939.05546474704,
+  "ratio": 0.5480104856160074
+ },
+ {
+  "model": "Full, donors in the wells",
+  "tw": 60078.35294340408,
+  "F": 60.0,
+  "adqw": 105047.91360430999,
+  "ratio": 0.5719138142020095
+ },
+ {
+  "model": "Full, donors in the centre well",
+  "tw": 58731.0457691641,
+  "F": 70.0,
+  "adqw": 105047.91360430999,
+  "ratio": 0.5590881699030188
+ }
+]

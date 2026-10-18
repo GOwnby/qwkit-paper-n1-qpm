@@ -1,0 +1,21 @@
+check propagate vs propagate_segments: 1.461294e-03 1.461294e-03
+ns 1e+10: off field -150 kV/cm, |chi| off/on 0.091
+ns 3e+10: off field -150 kV/cm, |chi| off/on 0.092
+ns 1e+11: off field -150 kV/cm, |chi| off/on 0.093
+ns 2e+11: off field -150 kV/cm, |chi| off/on 0.096
+ns 5e+11: off field -160 kV/cm, |chi| off/on 0.097
+ns 1e+10 P 0.01: realistic Stark eta 0.0014% L 1761 um (Lcoh on/off 23.5/23.5)
+ns 1e+10 P 1.26: realistic Stark eta 0.0384% L 2702 um (Lcoh on/off 23.5/23.5)
+ns 1e+10 P 10.02: realistic Stark eta 0.0741% L 4508 um (Lcoh on/off 23.5/23.5)
+ns 3e+10 P 0.01: realistic Stark eta 0.0019% L 683 um (Lcoh on/off 23.7/23.7)
+ns 3e+10 P 1.26: realistic Stark eta 0.0577% L 1063 um (Lcoh on/off 23.7/23.7)
+ns 3e+10 P 10.02: realistic Stark eta 0.1760% L 2125 um (Lcoh on/off 23.7/23.7)
+ns 1e+11 P 0.01: realistic Stark eta 0.0022% L 212 um (Lcoh on/off 24.3/24.2)
+ns 1e+11 P 1.26: realistic Stark eta 0.0666% L 312 um (Lcoh on/off 24.3/24.2)
+ns 1e+11 P 10.02: realistic Stark eta 0.2979% L 770 um (Lcoh on/off 24.3/24.2)
+ns 2e+11 P 0.01: realistic Stark eta 0.0023% L 70 um (Lcoh on/off 25.0/25.0)
+ns 2e+11 P 1.26: realistic Stark eta 0.0680% L 170 um (Lcoh on/off 25.0/25.0)
+ns 2e+11 P 10.02: realistic Stark eta 0.3667% L 395 um (Lcoh on/off 25.0/25.0)
+ns 5e+11 P 0.01: realistic Stark eta 0.0034% L 15 um (Lcoh on/off 25.2/27.8)
+ns 5e+11 P 1.26: realistic Stark eta 0.0710% L 70 um (Lcoh on/off 25.2/27.8)
+ns 5e+11 P 10.02: realistic Stark eta 0.4982% L 155 um (Lcoh on/off 25.2/27.8)

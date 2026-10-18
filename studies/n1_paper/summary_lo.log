@@ -1,0 +1,13 @@
+1.26 W ns 1e+10: TW 0.065 | Stark 0.046 | onoff(on-loss) 0.012 | rev 0.046 | none 0.0000 | PM 0.114 | L 2128 um
+1.26 W ns 1e+11: TW 0.115 | Stark 0.067 | onoff(on-loss) 0.019 | rev 0.063 | none 0.0027 | PM 0.153 | L 298 um
+1.26 W ns 5e+11: TW 0.125 | Stark 0.083 | onoff(on-loss) 0.051 | rev 0.070 | none 0.0509 | PM 0.148 | L 63 um
+10.02 W ns 1e+10: TW 0.085 | Stark 0.212 | onoff(on-loss) 0.015 | rev 0.058 | none 0.0000 | PM 0.142 | L 3954 um
+10.02 W ns 1e+11: TW 0.204 | Stark 0.585 | onoff(on-loss) 0.033 | rev 0.122 | none 0.0004 | PM 0.298 | L 718 um
+10.02 W ns 5e+11: TW 0.254 | Stark 0.759 | onoff(on-loss) 0.049 | rev 0.135 | none 0.0093 | PM 0.311 | L 156 um
+TW/stark: P>=1.26 W 0.18-1.75; 10 mW 0.71-1.00
+TW/onoff: P>=1.26 W 2.45-7.19; 10 mW 0.71-3.06
+TW/rev: P>=1.26 W 1.30-2.20; 10 mW 0.71-0.94
+TW/pm: P>=1.26 W 0.53-0.95; 10 mW 0.30-0.47
+crossover stark {'1e+10': 0.04, '3e+10': 0.04, '1e+11': 0.01, '2e+11': 0.04, '5e+11': 0.317}
+crossover rev {'1e+10': 0.317, '3e+10': 0.159, '1e+11': 0.079, '2e+11': 0.079, '5e+11': 0.317}
+heating at 10 W, 5e11: L 156 um, absorbed 6.85 W, 1.93e+09 W/cm3, adiabatic 1.29 K/ns

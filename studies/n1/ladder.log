@@ -1,0 +1,6 @@
+No Hartree, no depolarisation      TW   61.2 @ 50 | ADQW  105.7 | ratio 0.578
+No Hartree, with depolarisation    TW   59.3 @ 45 | ADQW   93.8 | ratio 0.632
+Hartree, no depolarisation         TW   60.7 @ 55 | ADQW  103.2 | ratio 0.588
+Hartree + depolarisation (full)    TW   60.8 @ 55 | ADQW  110.9 | ratio 0.548
+Full, donors in the wells          TW   60.1 @ 60 | ADQW  105.0 | ratio 0.572
+Full, donors in the centre well    TW   58.7 @ 70 | ADQW  105.0 | ratio 0.559

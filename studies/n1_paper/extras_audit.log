@@ -1,0 +1,54 @@
+bipolar optimum fields [(0, 60), (1, 60), (1, 80), (2, 80), (2, 100), (3, 80), (3, 100), (3, 120), (4, 100), (4, 120)]: phase difference 163.4-198.5 deg, |chi|/|chi(0 V)| 0.145-0.507, |E21-hw| 17.2-41.3 meV, |E31-2hw| 0.3-15.5 meV
+  ns 1e+10 +-60: valid True dphi 163.7 |chi+| 0.507 |chi-| 0.356 d21 -17.2/+23.3 d31 +0.3/+7.1 meV
+  ns 3e+10 +-60: valid True dphi 163.4 |chi+| 0.504 |chi-| 0.358 d21 -17.3/+23.2 d31 +0.3/+7.0 meV
+  ns 3e+10 +-80: valid True dphi 182.9 |chi+| 0.387 |chi-| 0.255 d21 -23.3/+29.8 d31 +0.6/+9.8 meV
+  ns 1e+11 +-80: valid True dphi 181.9 |chi+| 0.381 |chi-| 0.261 d21 -23.4/+29.4 d31 +0.6/+9.4 meV
+  ns 1e+11 +-100: valid True dphi 193.7 |chi+| 0.304 |chi-| 0.189 d21 -28.7/+35.8 d31 +1.4/+12.6 meV
+  ns 2e+11 +-80: valid True dphi 180.5 |chi+| 0.375 |chi-| 0.270 d21 -23.5/+28.7 d31 +0.5/+8.9 meV
+  ns 2e+11 +-100: valid True dphi 192.4 |chi+| 0.300 |chi-| 0.196 d21 -28.7/+35.2 d31 +1.3/+12.0 meV
+  ns 2e+11 +-120: valid True dphi 198.5 |chi+| 0.242 |chi-| 0.145 d21 -33.2/+41.3 d31 +2.5/+15.5 meV
+  ns 5e+11 +-100: valid True dphi 188.2 |chi+| 0.295 |chi-| 0.223 d21 -28.4/+33.3 d31 +1.1/+10.2 meV
+  ns 5e+11 +-120: valid True dphi 195.3 |chi+| 0.240 |chi-| 0.165 d21 -32.5/+39.5 d31 +2.2/+13.4 meV
+two-field best ns_i 2 P 1.26: (-80,+120) dhw +0: d21 +29.4/-33.5 d31 +9.4/+2.6 meV
+two-field best ns_i 2 P 10.0: (-80,+120) dhw +0: d21 +29.4/-33.5 d31 +9.4/+2.6 meV
+two-field best ns_i 4 P 1.26: (-100,+120) dhw +0: d21 +33.3/-32.5 d31 +10.2/+2.2 meV
+two-field best ns_i 4 P 10.0: (+120,-120) dhw +0: d21 -32.5/+39.5 d31 +2.2/+13.4 meV
+rate-equation limit: resonant 4.21-4.49 W; optima with |D| >= 20 meV (18 of 24): 14.0-59.3 W; at -10 meV: 7.9-9.7 W
+   {'ns': 100000000000.0, 'P': 1.26, 'scheme': 'tw_sign', 'dhw_meV': -10.0, 'eta': 0.002, 'P_valid_W': 9.688, 'd12': 1.095, 'd23': 1.084}
+   {'ns': 100000000000.0, 'P': 1.26, 'scheme': 'ad_rev', 'dhw_meV': -25.0, 'eta': 0.002, 'P_valid_W': 29.153, 'd12': 2.717, 'd23': 2.439}
+   {'ns': 100000000000.0, 'P': 1.26, 'scheme': 'ad_pm', 'dhw_meV': -25.0, 'eta': 0.004, 'P_valid_W': 29.153, 'd12': 2.717, 'd23': 2.439}
+   {'ns': 100000000000.0, 'P': 1.26, 'scheme': 'ad_stark', 'F_off': 100, 'dhw_meV': -10.0, 'eta': 0.001, 'P_valid_on_W': 7.895, 'P_valid_off_W': 21.433, 'P_valid_W': 7.895}
+   {'ns': 100000000000.0, 'P': 4.0, 'scheme': 'tw_sign', 'dhw_meV': -20.0, 'eta': 0.004, 'P_valid_W': 23.798, 'd12': 2.095, 'd23': 2.084}
+   {'ns': 100000000000.0, 'P': 4.0, 'scheme': 'ad_rev', 'dhw_meV': -30.0, 'eta': 0.003, 'P_valid_W': 40.433, 'd12': 3.217, 'd23': 2.939}
+   {'ns': 100000000000.0, 'P': 4.0, 'scheme': 'ad_pm', 'dhw_meV': -30.0, 'eta': 0.008, 'P_valid_W': 40.433, 'd12': 3.217, 'd23': 2.939}
+   {'ns': 100000000000.0, 'P': 4.0, 'scheme': 'ad_stark', 'F_off': 100, 'dhw_meV': -10.0, 'eta': 0.002, 'P_valid_on_W': 7.895, 'P_valid_off_W': 21.433, 'P_valid_W': 7.895}
+   {'ns': 100000000000.0, 'P': 10.0, 'scheme': 'tw_sign', 'dhw_meV': -20.0, 'eta': 0.007, 'P_valid_W': 23.798, 'd12': 2.095, 'd23': 2.084}
+   {'ns': 100000000000.0, 'P': 10.0, 'scheme': 'ad_rev', 'dhw_meV': -30.0, 'eta': 0.004, 'P_valid_W': 40.433, 'd12': 3.217, 'd23': 2.939}
+   {'ns': 100000000000.0, 'P': 10.0, 'scheme': 'ad_pm', 'dhw_meV': -30.0, 'eta': 0.009, 'P_valid_W': 40.433, 'd12': 3.217, 'd23': 2.939}
+   {'ns': 100000000000.0, 'P': 10.0, 'scheme': 'ad_stark', 'F_off': 80, 'dhw_meV': 0.0, 'eta': 0.006, 'P_valid_on_W': 4.21, 'P_valid_off_W': 33.346, 'P_valid_W': 4.21}
+   {'ns': 500000000000.0, 'P': 1.26, 'scheme': 'tw_sign', 'dhw_meV': -20.0, 'eta': 0.003, 'P_valid_W': 21.744, 'd12': 2.171, 'd23': 1.991}
+   {'ns': 500000000000.0, 'P': 1.26, 'scheme': 'ad_rev', 'dhw_meV': -30.0, 'eta': 0.003, 'P_valid_W': 45.037, 'd12': 3.002, 'd23': 3.082}
+   {'ns': 500000000000.0, 'P': 1.26, 'scheme': 'ad_pm', 'dhw_meV': -30.0, 'eta': 0.007, 'P_valid_W': 45.037, 'd12': 3.002, 'd23': 3.082}
+   {'ns': 500000000000.0, 'P': 1.26, 'scheme': 'ad_stark', 'F_off': 140, 'dhw_meV': -20.0, 'eta': 0.001, 'P_valid_on_W': 22.883, 'P_valid_off_W': 14.012, 'P_valid_W': 14.012}
+   {'ns': 500000000000.0, 'P': 4.0, 'scheme': 'tw_sign', 'dhw_meV': -25.0, 'eta': 0.006, 'P_valid_W': 31.56, 'd12': 2.671, 'd23': 2.491}
+   {'ns': 500000000000.0, 'P': 4.0, 'scheme': 'ad_rev', 'dhw_meV': -35.0, 'eta': 0.006, 'P_valid_W': 59.333, 'd12': 3.502, 'd23': 3.582}
+   {'ns': 500000000000.0, 'P': 4.0, 'scheme': 'ad_pm', 'dhw_meV': -35.0, 'eta': 0.014, 'P_valid_W': 59.333, 'd12': 3.502, 'd23': 3.582}
+   {'ns': 500000000000.0, 'P': 4.0, 'scheme': 'ad_stark', 'F_off': -40, 'dhw_meV': 0.0, 'eta': 0.002, 'P_valid_on_W': 4.319, 'P_valid_off_W': 7.694, 'P_valid_W': 4.319}
+   {'ns': 500000000000.0, 'P': 10.0, 'scheme': 'tw_sign', 'dhw_meV': -25.0, 'eta': 0.012, 'P_valid_W': 31.56, 'd12': 2.671, 'd23': 2.491}
+   {'ns': 500000000000.0, 'P': 10.0, 'scheme': 'ad_rev', 'dhw_meV': -35.0, 'eta': 0.008, 'P_valid_W': 59.333, 'd12': 3.502, 'd23': 3.582}
+   {'ns': 500000000000.0, 'P': 10.0, 'scheme': 'ad_pm', 'dhw_meV': -35.0, 'eta': 0.018, 'P_valid_W': 59.333, 'd12': 3.502, 'd23': 3.582}
+   {'ns': 500000000000.0, 'P': 10.0, 'scheme': 'ad_stark', 'F_off': -80, 'dhw_meV': 0.0, 'eta': 0.008, 'P_valid_on_W': 4.319, 'P_valid_off_W': 16.116, 'P_valid_W': 4.319}
+relaxation: {"tw_3to2_ps": 0.7800576033409273, "tw_3to1_ps": 1.9338567941328713, "tw_3_branch_to_2": 0.7125710361140974, "tw_2to1_ps": 2.555165042321364, "tw_rho2_eq": 0.17487156438073323, "tw_E21_meV": 49.46148006529885, "ad_2to1_ps": 1.0230118933338022, "ad_3_out_ps": 0.5301000584912933, "sigma_pump_ratio_ad_over_tw": 2.531089338727404, "chi_crossover_MWcm2": {"1e+10": 1.0017061182720073, "3e+10": 0.9851058151144734, "1e+11": 0.941541297999489, "2e+11": 0.9134426966535446, "5e+11": 1.0468475566164333}, "I_per_W_MWcm2": 1.740903147273355}
+crossover TW opt vs rev (W, MW/cm2): {'1e+10': (0.281, 0.49), '3e+10': (0.099, 0.17), '1e+11': (0.033, 0.06), '2e+11': (0.016, 0.03), '5e+11': (0.165, 0.29)}
+crossover TW 55 vs rev (W, MW/cm2): {'1e+10': (0.281, 0.49), '3e+10': (0.104, 0.18), '1e+11': (0.052, 0.09), '2e+11': (0.047, 0.08), '5e+11': (0.223, 0.39)}
+bipolar ADQW / next-best scheme above 1 W: min 1.11
+voltages: TW opt fields [60, 70, 80, 90] -> 31.9-47.8 V; 55 kV/cm 29.2 V; contacts at the stack 8.3 V
+leakage: U 0.396 eV, hop time 0.44 us at 300 K (J 0.181 A/cm2), 0.93 ms at 200 K, 1 ms at 199 K; tunnelling Gamma (meV) [0.0, 0.0, 0.0, 1e-06]
+bulk InP Lcoh 63.1 um
+Kane vs Loewdin, |chi2| at the pump, full model, ad at 0 kV/cm: ratio 0.9913 (3 localized states, two-band overlap 1.4e-05)
+Kane vs Loewdin, |chi2| at the pump, full model, tw at 55 kV/cm: ratio 0.9935 (5 localized states, two-band overlap 1.4e-05)
+Kane ADQW 64/10/29 (spacer 200 A): peak chi2 ratio 0.9920, two-band overlap 1.4e-05
+Kane ADQW 64/10/29 (spacer 100 A): peak chi2 ratio 0.9943, two-band overlap 2.9e-05
+LO benchmark: {"E21_meV": 85.86159973851419, "dE21_meV": -0.03840026148581899, "tau21_ps": 0.7260948472150641, "ref_tau21_ps": 0.834, "rel_dev": 0.12938267720016283}
+json checks: {"stark_Lcoh_max_ratio": 1.3292626694211431, "stark_off_fields_5e11": [-100, -80, -40, 20], "pm80_shortfall_range": [0.009661869016852176, 0.0784769056129494], "Lcoh_media_range_um": [23.22, 25.2]}
+qwkit 0.6.1, 57 test functions

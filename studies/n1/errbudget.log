@@ -1,0 +1,21 @@
+nominal                          TW   60.8 nm/V @ 55 kV/cm | ADQW  110.9 | ratio 0.55
+band offset -0.02 eV             TW   61.3 nm/V @ 60 kV/cm | ADQW  105.2 | ratio 0.58
+band offset +0.02 eV             TW   56.8 nm/V @ 50 kV/cm | ADQW  106.6 | ratio 0.53
+well mass -5%                    TW   54.1 nm/V @ 50 kV/cm | ADQW  101.9 | ratio 0.53
+well mass +5%                    TW   54.1 nm/V @ 60 kV/cm | ADQW   87.1 | ratio 0.62
+barrier mass -5%                 TW   60.6 nm/V @ 50 kV/cm | ADQW  109.0 | ratio 0.56
+barrier mass +5%                 TW   60.0 nm/V @ 55 kV/cm | ADQW  107.6 | ratio 0.56
+linewidth 6 meV                  TW  165.4 nm/V @ 50 kV/cm | ADQW  307.7 | ratio 0.54
+linewidth 14 meV                 TW   30.9 nm/V @ 60 kV/cm | ADQW   56.4 | ratio 0.55
+triple well outer well -3 A      TW   39.5 nm/V @ 60 kV/cm | ADQW  110.9 | ratio 0.36
+triple well outer well +3 A      TW   41.8 nm/V @ 55 kV/cm | ADQW  110.9 | ratio 0.38
+triple well barriers -3 A        TW   54.3 nm/V @ 45 kV/cm | ADQW  110.9 | ratio 0.49
+triple well barriers +3 A        TW   53.2 nm/V @ 60 kV/cm | ADQW  110.9 | ratio 0.48
+triple well centre well -3 A     TW   50.5 nm/V @ 35 kV/cm | ADQW  110.9 | ratio 0.46
+triple well centre well +3 A     TW   60.1 nm/V @ 70 kV/cm | ADQW  110.9 | ratio 0.54
+ADQW wide well -3 A              TW   60.8 nm/V @ 55 kV/cm | ADQW   82.5 | ratio 0.74
+ADQW wide well +3 A              TW   60.8 nm/V @ 55 kV/cm | ADQW   76.8 | ratio 0.79
+ADQW barrier -3 A                TW   60.8 nm/V @ 55 kV/cm | ADQW   62.2 | ratio 0.98
+ADQW barrier +3 A                TW   60.8 nm/V @ 55 kV/cm | ADQW   72.4 | ratio 0.84
+ADQW narrow well -3 A            TW   60.8 nm/V @ 55 kV/cm | ADQW   54.3 | ratio 1.12
+ADQW narrow well +3 A            TW   60.8 nm/V @ 55 kV/cm | ADQW   58.6 | ratio 1.04

@@ -1,0 +1,170 @@
+[
+ {
+  "case": "nominal",
+  "adqw": 110850.90880097482,
+  "tw": 60819.08977716096,
+  "F": 55,
+  "ratio_same_case": 0.548656663576457,
+  "tw_vs_nominal_adqw": 0.548656663576457
+ },
+ {
+  "case": "band offset -0.02 eV",
+  "adqw": 105209.27874945555,
+  "tw": 61262.92119609903,
+  "F": 60,
+  "ratio_same_case": 0.5822958005632755,
+  "tw_vs_nominal_adqw": 0.5526605226673639
+ },
+ {
+  "case": "band offset +0.02 eV",
+  "adqw": 106596.38954223615,
+  "tw": 56847.795330706125,
+  "F": 50,
+  "ratio_same_case": 0.5332994445199442,
+  "tw_vs_nominal_adqw": 0.5128311165474739
+ },
+ {
+  "case": "well mass -5%",
+  "adqw": 101948.65962663433,
+  "tw": 54087.348621361874,
+  "F": 50,
+  "ratio_same_case": 0.5305351617122334,
+  "tw_vs_nominal_adqw": 0.4879287793523821
+ },
+ {
+  "case": "well mass +5%",
+  "adqw": 87132.70489998833,
+  "tw": 54092.76136333228,
+  "F": 60,
+  "ratio_same_case": 0.6208089307616517,
+  "tw_vs_nominal_adqw": 0.4879776083789454
+ },
+ {
+  "case": "barrier mass -5%",
+  "adqw": 109023.29760281983,
+  "tw": 60606.70095421658,
+  "F": 50,
+  "ratio_same_case": 0.5559059603481395,
+  "tw_vs_nominal_adqw": 0.5467406772733974
+ },
+ {
+  "case": "barrier mass +5%",
+  "adqw": 107601.01556069584,
+  "tw": 59979.69133956731,
+  "F": 55,
+  "ratio_same_case": 0.5574268144870234,
+  "tw_vs_nominal_adqw": 0.5410843446241539
+ },
+ {
+  "case": "linewidth 6 meV",
+  "adqw": 307657.4487801628,
+  "tw": 165421.88669225477,
+  "F": 50,
+  "ratio_same_case": 0.5376820465362998,
+  "tw_vs_nominal_adqw": 1.492291659865941
+ },
+ {
+  "case": "linewidth 14 meV",
+  "adqw": 56360.196538136275,
+  "tw": 30932.56111572396,
+  "F": 60,
+  "ratio_same_case": 0.5488369987282312,
+  "tw_vs_nominal_adqw": 0.2790465270001642
+ },
+ {
+  "case": "triple well outer well -3 A",
+  "adqw": 110850.90880097482,
+  "tw": 39486.236548945366,
+  "F": 60,
+  "ratio_same_case": 0.3562103096496952,
+  "tw_vs_nominal_adqw": 0.3562103096496952
+ },
+ {
+  "case": "triple well outer well +3 A",
+  "adqw": 110850.90880097482,
+  "tw": 41815.08663212838,
+  "F": 55,
+  "ratio_same_case": 0.37721915935939226,
+  "tw_vs_nominal_adqw": 0.37721915935939226
+ },
+ {
+  "case": "triple well barriers -3 A",
+  "adqw": 110850.90880097482,
+  "tw": 54340.63266347977,
+  "F": 45,
+  "ratio_same_case": 0.4902136865746824,
+  "tw_vs_nominal_adqw": 0.4902136865746824
+ },
+ {
+  "case": "triple well barriers +3 A",
+  "adqw": 110850.90880097482,
+  "tw": 53212.477013296586,
+  "F": 60,
+  "ratio_same_case": 0.48003645246459753,
+  "tw_vs_nominal_adqw": 0.48003645246459753
+ },
+ {
+  "case": "triple well centre well -3 A",
+  "adqw": 110850.90880097482,
+  "tw": 50492.73130335488,
+  "F": 35,
+  "ratio_same_case": 0.4555012841077478,
+  "tw_vs_nominal_adqw": 0.4555012841077478
+ },
+ {
+  "case": "triple well centre well +3 A",
+  "adqw": 110850.90880097482,
+  "tw": 60112.13293787971,
+  "F": 70,
+  "ratio_same_case": 0.5422791169516428,
+  "tw_vs_nominal_adqw": 0.5422791169516428
+ },
+ {
+  "case": "ADQW wide well -3 A",
+  "adqw": 82469.4404620551,
+  "tw": 60819.08977716096,
+  "F": 55,
+  "ratio_same_case": 0.7374742624226285,
+  "tw_vs_nominal_adqw": 0.548656663576457
+ },
+ {
+  "case": "ADQW wide well +3 A",
+  "adqw": 76810.25054226481,
+  "tw": 60819.08977716096,
+  "F": 55,
+  "ratio_same_case": 0.7918095481760639,
+  "tw_vs_nominal_adqw": 0.548656663576457
+ },
+ {
+  "case": "ADQW barrier -3 A",
+  "adqw": 62207.86858015763,
+  "tw": 60819.08977716096,
+  "F": 55,
+  "ratio_same_case": 0.9776751907002381,
+  "tw_vs_nominal_adqw": 0.548656663576457
+ },
+ {
+  "case": "ADQW barrier +3 A",
+  "adqw": 72436.64987840438,
+  "tw": 60819.08977716096,
+  "F": 55,
+  "ratio_same_case": 0.8396176504470428,
+  "tw_vs_nominal_adqw": 0.548656663576457
+ },
+ {
+  "case": "ADQW narrow well -3 A",
+  "adqw": 54338.593388033405,
+  "tw": 60819.08977716096,
+  "F": 55,
+  "ratio_same_case": 1.119261393883536,
+  "tw_vs_nominal_adqw": 0.548656663576457
+ },
+ {
+  "case": "ADQW narrow well +3 A",
+  "adqw": 58550.26264774098,
+  "tw": 60819.08977716096,
+  "F": 55,
+  "ratio_same_case": 1.0387500760341597,
+  "tw_vs_nominal_adqw": 0.548656663576457
+ }
+]

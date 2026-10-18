@@ -1,0 +1,6 @@
+ns 1e+10: TW best F 50 |chi| 1.31 nm/V ; ADQW 2.16 nm/V ; ratio 0.608
+ns 3e+10: TW best F 50 |chi| 3.93 nm/V ; ADQW 6.49 nm/V ; ratio 0.605
+ns 1e+11: TW best F 50 |chi| 13.00 nm/V ; ADQW 21.83 nm/V ; ratio 0.596
+ns 2e+11: TW best F 50 |chi| 25.55 nm/V ; ADQW 44.11 nm/V ; ratio 0.579
+ns 5e+11: TW best F 55 |chi| 60.80 nm/V ; ADQW 110.94 nm/V ; ratio 0.548
+chiF: [(0, np.float64(0.0)), (5, np.float64(5.5)), (10, np.float64(10.8)), (15, np.float64(16.2)), (20, np.float64(21.6)), (25, np.float64(27.4)), (30, np.float64(33.6)), (35, np.float64(40.4)), (40, np.float64(47.6)), (45, np.float64(54.4)), (50, np.float64(59.3)), (55, np.float64(60.8)), (60, np.float64(58.8)), (65, np.float64(54.3)), (70, np.float64(48.8)), (75, np.float64(43.3)), (80, np.float64(38.2)), (85, np.float64(33.7)), (90, np.float64(29.7)), (95, np.float64(26.3)), (100, np.float64(22.6)), (105, np.float64(20.1)), (110, np.float64(17.6))]

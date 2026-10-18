@@ -1,0 +1,15 @@
+ns 1e+10 P 0.01: TW sign 0.001% | ADQW orient-reversed 0.002% | ratio TW/ADQWrev 0.75
+ns 1e+10 P 1.26: TW sign 0.084% | ADQW orient-reversed 0.079% | ratio TW/ADQWrev 1.07
+ns 1e+10 P 10.02: TW sign 0.232% | ADQW orient-reversed 0.185% | ratio TW/ADQWrev 1.26
+ns 3e+10 P 0.01: TW sign 0.002% | ADQW orient-reversed 0.002% | ratio TW/ADQWrev 0.87
+ns 3e+10 P 1.26: TW sign 0.125% | ADQW orient-reversed 0.104% | ratio TW/ADQWrev 1.21
+ns 3e+10 P 10.02: TW sign 0.476% | ADQW orient-reversed 0.374% | ratio TW/ADQWrev 1.27
+ns 1e+11 P 0.01: TW sign 0.002% | ADQW orient-reversed 0.002% | ratio TW/ADQWrev 0.93
+ns 1e+11 P 1.26: TW sign 0.147% | ADQW orient-reversed 0.114% | ratio TW/ADQWrev 1.29
+ns 1e+11 P 10.02: TW sign 0.676% | ADQW orient-reversed 0.524% | ratio TW/ADQWrev 1.29
+ns 2e+11 P 0.01: TW sign 0.002% | ADQW orient-reversed 0.002% | ratio TW/ADQWrev 0.93
+ns 2e+11 P 1.26: TW sign 0.150% | ADQW orient-reversed 0.114% | ratio TW/ADQWrev 1.32
+ns 2e+11 P 10.02: TW sign 0.706% | ADQW orient-reversed 0.547% | ratio TW/ADQWrev 1.29
+ns 5e+11 P 0.01: TW sign 0.002% | ADQW orient-reversed 0.003% | ratio TW/ADQWrev 0.70
+ns 5e+11 P 1.26: TW sign 0.155% | ADQW orient-reversed 0.117% | ratio TW/ADQWrev 1.33
+ns 5e+11 P 10.02: TW sign 0.748% | ADQW orient-reversed 0.540% | ratio TW/ADQWrev 1.38

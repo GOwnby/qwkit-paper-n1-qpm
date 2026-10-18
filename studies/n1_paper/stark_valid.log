@@ -1,0 +1,25 @@
+ns 1e+10: valid off fields [20, -20, 40, -40, 60, -60, -80, 100, -100, 120, -120, 140, -140]
+ns 3e+10: valid off fields [20, -20, 40, -40, 60, -60, 80, -80, 100, -100, 120, -120, 140, -140]
+ns 1e+11: valid off fields [20, -20, 40, -40, 60, -60, 80, -80, 100, -100, 120, -120, 140, -140]
+ns 2e+11: valid off fields [20, -20, 40, -40, -60, 80, -80, 100, -100, 120, -120, 140, -140]
+ns 5e+11: valid off fields [20, -20, 40, -40, 60, 80, -80, 100, -100, 120, -120, 140, -140]
+ns 1e+10 P 0.01: Stark (best valid off field -140) eta 0.0014%
+ns 1e+10 P 1.26: Stark (best valid off field +60) eta 0.0463%
+ns 1e+10 P 10.02: Stark (best valid off field +60) eta 0.2118%
+ns 1e+10 P 20.00: Stark (best valid off field +100) eta 0.3126%
+ns 3e+10 P 0.01: Stark (best valid off field -140) eta 0.0019%
+ns 3e+10 P 1.26: Stark (best valid off field +60) eta 0.0626%
+ns 3e+10 P 10.02: Stark (best valid off field +80) eta 0.4488%
+ns 3e+10 P 20.00: Stark (best valid off field +100) eta 0.7689%
+ns 1e+11 P 0.01: Stark (best valid off field -140) eta 0.0022%
+ns 1e+11 P 1.26: Stark (best valid off field -140) eta 0.0667%
+ns 1e+11 P 10.02: Stark (best valid off field +80) eta 0.5851%
+ns 1e+11 P 20.00: Stark (best valid off field +100) eta 1.1996%
+ns 2e+11 P 0.01: Stark (best valid off field -140) eta 0.0023%
+ns 2e+11 P 1.26: Stark (best valid off field -140) eta 0.0678%
+ns 2e+11 P 10.02: Stark (best valid off field -80) eta 0.5509%
+ns 2e+11 P 20.00: Stark (best valid off field +100) eta 1.2169%
+ns 5e+11 P 0.01: Stark (best valid off field +20) eta 0.0034%
+ns 5e+11 P 1.26: Stark (best valid off field -40) eta 0.0831%
+ns 5e+11 P 10.02: Stark (best valid off field -80) eta 0.7585%
+ns 5e+11 P 20.00: Stark (best valid off field -100) eta 1.7391%
