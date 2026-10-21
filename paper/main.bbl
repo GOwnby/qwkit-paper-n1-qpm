@@ -1,4 +1,4 @@
-\begin{thebibliography}{43}
+\begin{thebibliography}{44}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -31,9 +31,8 @@ J.~R. Meyer, C.~A. Hoffman, F.~J. Bartoli, E.~R. Youngdale, and L.~R.
   Ram-Mohan.
 \newblock Momentum-space reservoir for enhancement of intersubband
   second-harmonic generation.
-\newblock \emph{IEEE J. Quantum Electron.}, 31:\penalty0 706,
+\newblock \emph{IEEE J. Quantum Electron.}, 31:\penalty0 706--714,
   1995{\natexlab{a}}.
-\newblock \doi{10.1109/3.371946}.
 
 \bibitem[Vurgaftman et~al.(1996{\natexlab{a}})Vurgaftman, Meyer, and
   Ram-Mohan]{Vurgaftman1996}
@@ -144,8 +143,8 @@ K.~L. Vodopyanov, K.~O'Neill, G.~B. Serapiglia, C.~C. Phillips, M.~Hopkinson,
 J.~R. Meyer, C.~A. Hoffman, F.~J. Bartoli, and L.~R. Ram-Mohan.
 \newblock Intersubband second-harmonic generation with voltage-controlled phase
   matching.
-\newblock \emph{Appl. Phys. Lett.}, 67:\penalty0 608, 1995{\natexlab{b}}.
-\newblock \doi{10.1063/1.115404}.
+\newblock \emph{Appl. Phys. Lett.}, 67\penalty0 (5):\penalty0 608--610,
+  1995{\natexlab{b}}.
 
 \bibitem[Vurgaftman et~al.(1996{\natexlab{b}})Vurgaftman, Meyer, and
   Ram-Mohan]{Vurgaftman1996SSC}
@@ -319,6 +318,13 @@ M.~A. Ordal, R.~J. Bell, R.~W. Alexander, Jr., L.~L. Long, and M.~R. Querry.
 \newblock \emph{Appl. Opt.}, 24:\penalty0 4493, 1985.
 \newblock \doi{10.1364/AO.24.004493}.
 
+\bibitem[Ownby(2026{\natexlab{a}})]{OwnbyN2}
+Gracen Ownby.
+\newblock {Electrically programmable intersubband second-harmonic gratings:
+  synthesis under saturation, fringing fields and tuning}.
+\newblock Zenodo, October 2026{\natexlab{a}}.
+\newblock URL \url{https://doi.org/10.5281/zenodo.23444591}.
+
 \bibitem[Ferreira and Bastard(1989)]{Ferreira1989}
 R.~Ferreira and G.~Bastard.
 \newblock Evaluation of some scattering times for electrons in unbiased and
@@ -334,10 +340,11 @@ Scattering times for electrons in unbiased and biased single and multiple
   2026.
 \newblock Accessed 10 October.
 
-\bibitem[Ownby(2026)]{OwnbyNL02}
-G.~Ownby.
-\newblock Rabi-frequency bound and saturation limits of resonant intersubband
-  second-harmonic generation in waveguides and thin films.
-\newblock Manuscript, 2026.
+\bibitem[Ownby(2026{\natexlab{b}})]{OwnbyNL02}
+Gracen Ownby.
+\newblock {Rabi-frequency bound and saturation limits of resonant intersubband
+  second-harmonic generation in waveguides and thin films}.
+\newblock Zenodo, October 2026{\natexlab{b}}.
+\newblock URL \url{https://doi.org/10.5281/zenodo.23444562}.
 
 \end{thebibliography}

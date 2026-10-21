@@ -26,6 +26,8 @@ python3 twofield_qpm.py > twofield_qpm.log 2>&1
 python3 twofield_tw.py > twofield_tw.log 2>&1
 python3 twofield_best.py > twofield_best.log 2>&1        # needs twofield_qpm.json, twofield_tw.json
 python3 extras_audit.py > extras_audit.log 2>&1          # needs all of the above and ../nl02/qwkit_validation.json, numbers.json
+bash ../n2/run_maps.sh                                   # bias maps at 1e10, 3e10, 2e11 (1e11, 5e11 copied from N2)
+bash rerun_realfield.sh                                  # electrical schemes through the electrode fields (Tables 3-6, Fig. 5)
 cd ../n1
 python3 ladder.py 58 14 34 50 64 10 29 > ladder.log 2>&1
 python3 errbudget.py 58 14 34 64 10 29 > errbudget.log 2>&1

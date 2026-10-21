@@ -207,12 +207,15 @@ def fig4():
 
 # ---------------- Fig. 5: saturated propagation --------------------------------------------------
 def fig5():
-    D = json.load(open(os.path.join(here, "propagation_lo.json"))); R = list(D["results"])
-    S = json.load(open(os.path.join(here, "stark_valid.json")))
-    R += [dict(r, design="ad", scheme="stark") for r in S["results"]]
-    BF = json.load(open(os.path.join(here, "bipolar_fair.json")))["best"]
-    R += [dict(ns=b["ns"], P=b["P"], eta=b["tw"], design="tw", scheme="sign_opt") for b in BF]
-    R += [dict(ns=b["ns"], P=b["P"], eta=b["adbip"], design="ad", scheme="bipolar") for b in BF]
+    """Electrical schemes from realfield_eff.json (propagated through the electrode fields, 188 kV/cm breakdown limit);
+    growth reversal, idealized on/off, phase matching and no QPM (no electrodes) from propagation_lo.json."""
+    D = json.load(open(os.path.join(here, "propagation_lo.json"))); R = [r for r in D["results"] if r["design"] == "ad"]
+    EF = json.load(open(os.path.join(here, "realfield_eff.json")))
+    for e in EF:
+        R += [dict(ns=e["ns"], P=e["P"], eta=e["tw55"]["real"]["eta"], design="tw", scheme="sign"),
+              dict(ns=e["ns"], P=e["P"], eta=e["twopt"]["eta"], design="tw", scheme="sign_opt"),
+              dict(ns=e["ns"], P=e["P"], eta=e["adbip"]["eta"], design="ad", scheme="bipolar"),
+              dict(ns=e["ns"], P=e["P"], eta=e["stark"]["eta"], design="ad", scheme="stark")]
     T = json.load(open(os.path.join(here, "tables.json")))
     RATES = json.load(open(os.path.join(here, "rates.json")))
     sch = [(("tw", "sign"), BLUE, "-", "Triple well, sign reversal, 55 kV/cm"),
@@ -234,8 +237,6 @@ def fig5():
     ax = axs[1]
     for key, c, ls, lab in sch:
         rr = [r for r in R if (r["design"], r["scheme"]) == key]
-        if not rr:
-            continue
         ns = sorted(set(r["ns"] for r in rr))
         Pref = min(set(r["P"] for r in rr), key=lambda p: abs(p - 10.0))
         ax.loglog(ns, [[r["eta"] for r in rr if r["ns"] == n and abs(r["P"] - Pref) < 1e-9][0] * 100 for n in ns],
@@ -244,28 +245,17 @@ def fig5():
     ax.set_title(f"pump {Pref:.1f} W", color=INK)
     clean(ax); panel_label(ax, "(b)", x=-0.27)
     ax = axs[2]
-    eta_e = D["eta_e"]
+    e = [x for x in EF if abs(x["ns"] - 5e11) < 1 and abs(x["P"] - Pref) < 1e-9][0]
     i = [k for k, s_ in enumerate(T["states"]) if abs(s_["ns"] - 5e11) < 1][0]
     st = T["states"][i]
-    Rget = lambda d: [r for r in RATES if r["i"] == i and r["design"] == d][0]["R"]
-    from propagation_study import wg_for, WG
-    import twofield_qpm as tq
-    SV = json.load(open(os.path.join(here, "stark_valid.json")))["results"]
-    Foff = min([r for r in SV if abs(r["ns"] - 5e11) < 1], key=lambda r: abs(r["P"] - Pref))["F_off"]
-    off = tq.state(("ad", i, Foff))
-    m_tw = pr.Medium(st["tw"], HW, R=Rget("tw")); m_ad = pr.Medium(st["ad"], HW, R=Rget("ad"))
-    m_off = pr.Medium(off["st"], HW, R=off["R"])
-    curves = [(pr.propagate(m_tw, wg_for(st["tw"]), Pref, "sign", eta_e=eta_e, L_max_um=400.0), sch[0]),
-              (pr.propagate_segments([(m_ad, wg_for(st["ad"])["Lcoh_um"], 1.0), (m_off, wg_for(off["st"])["Lcoh_um"], 1.0)],
-                                     WG, Pref, L_max_um=400.0), sch[3]),
-              (pr.propagate(m_ad, wg_for(st["ad"]), Pref, "none", L_max_um=400.0), sch[7])]
-    BFr = min([b for b in BF if abs(b["ns"] - 5e11) < 1], key=lambda b: abs(b["P"] - Pref))
-    bp, bm = tq.state(("ad", i, BFr["F_ad"])), tq.state(("ad", i, -BFr["F_ad"]))
-    mbp, mbm = pr.Medium(bp["st"], HW, R=bp["R"]), pr.Medium(bm["st"], HW, R=bm["R"])
-    curves.append((pr.propagate_segments([(mbp, wg_for(bp["st"])["Lcoh_um"], eta_e), (mbm, wg_for(bm["st"])["Lcoh_um"], eta_e)],
-                                         WG, Pref, L_max_um=400.0), sch[2]))
-    for r, (_, c, ls, _) in curves:
-        ax.plot(r["x_um"], r["P2"] / Pref * 100, color=c, ls=ls, lw=1.3)
+    from propagation_study import wg_for
+    m_ad = pr.Medium(st["ad"], HW, R=[r for r in RATES if r["i"] == i and r["design"] == "ad"][0]["R"])
+    none = pr.propagate(m_ad, wg_for(st["ad"]), Pref, "none", L_max_um=400.0)
+    for x, y, (_, c, ls, _) in ((e["tw55"]["real"]["x_um"], e["tw55"]["real"]["P2"], sch[0]),
+                                (e["stark"]["real"]["x_um"], e["stark"]["real"]["P2"], sch[3]),
+                                (none["x_um"], none["P2"], sch[7]),
+                                (e["adbip"]["real"]["x_um"], e["adbip"]["real"]["P2"], sch[2])):
+        ax.plot(x, np.array(y) / Pref * 100, color=c, ls=ls, lw=1.3)
     ax.set_xlabel(r"Propagation distance ($\mu$m)"); ax.set_ylabel("SH power / input pump (%)")
     ax.set_title(f"$n_s = 5\\times10^{{11}}$, pump {Pref:.1f} W", color=INK)
     ax.set_xlim(0, 400); clean(ax); panel_label(ax, "(c)", x=-0.27)

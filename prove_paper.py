@@ -20,6 +20,6 @@ def run_script(desc, script_rel):
 
 if __name__ == "__main__":
     run_script("Running qwkit 69-test mathematical validation suite", "tests/run_tests.py")
-    for s in ['studies/n1_paper/summary_lo.py', 'studies/n1_paper/paper_figures.py']:
+    for s in ['studies/n1_paper/summary_lo.py', 'studies/n1_paper/realfield_summary.py', 'studies/n1_paper/paper_figures.py']:
         run_script("Verifying N1 study and figures", s)
     print("[SUCCESS] All mathematical identities, bounds, and paper figures verified.")

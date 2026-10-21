@@ -1,5 +1,7 @@
-"""Collects the numbers quoted in the paper from propagation_lo.json, stark_valid.json, sensitivity.json
-and rates.json; estimates heating. Writes summary_lo.json."""
+"""Collects the numbers of the first N1 release from propagation_lo.json, stark_valid.json, sensitivity.json
+and rates.json (electrical schemes scaled by the 0.92 electrode factor); estimates heating. Writes summary_lo.json.
+The electrically written schemes of the current manuscript come from realfield_summary.py (electrode fields and
+breakdown limit); the benchmarks without electrodes quoted there are those of propagation_lo.json."""
 import sys, os, json
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 import numpy as np

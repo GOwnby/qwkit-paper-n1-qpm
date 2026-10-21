@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23444558.svg)](https://doi.org/10.5281/zenodo.23444558)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23444557.svg)](https://doi.org/10.5281/zenodo.23444557)
 
 # Electrically written quasi-phase matching of intersubband second-harmonic generation: bias-reversed asymmetric and mirror-symmetric quantum wells
 
@@ -13,6 +13,8 @@ This repository is the permanent, self-contained mathematical and computational 
 1. The complete reviewed paper (`N1_paper.pdf`) and its LaTeX source (`paper/`).
 2. The complete `qwkit` (v0.7.0) Python package (`qwkit/`) and its 69 automated validation tests (`tests/`), which verify analytic limits, BenDaniel-Duke finite-well convergence, exact mirror-symmetry oddness $\chi^{(2)}(-F) = -\chi^{(2)}(F)$ to $10^{-11}$, two-band Kane orthogonality ($10^{-13}$), energy-conserving RK4 coupled-mode propagation, implicit-differentiation tangents, and RPA sum rules.
 3. The study scripts and precomputed JSON datasets (`studies/n1_paper/`) that generate every table, bound, and figure in the manuscript.
+
+4. Inputs taken from companion studies so that this folder is self-contained: `studies/nl02/` and the electrode-field model of N2 with its bias maps, `studies/n2/` (each with a `README_UPSTREAM.md` naming the source archive and the script that generates them). The electrically written schemes are computed by `studies/n1_paper/realfield_*.py` (`rerun_realfield.sh`).
 
 ## Quick Verification (Mathematical & Numerical Proof)
 
